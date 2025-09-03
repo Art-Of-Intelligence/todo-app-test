@@ -281,4 +281,4 @@ def undo_subtask(task_id: UUID, subtask_id: UUID):
 # Optional: quick ping
 @app.get("/")
 def root():
-    return {"ok": True, "service": "task-manager-simple"}
+    return {"ok": True, "service": "task-manager-simple new deploy"}
